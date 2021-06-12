@@ -1,0 +1,19 @@
+/* .footer{
+    position: sticky;
+    top:70%;
+} */
+
+@media screen and (min-height:900px)
+{
+    /* .footer{
+        color: aliceblue;
+        position: fixed;
+        top: 161px;
+    
+    } */
+
+    #login{
+        position: relative;
+        top: 70px;
+    }
+}

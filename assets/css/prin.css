@@ -1,0 +1,124 @@
+.btn{
+    outline: none;
+    padding: 10px;
+    box-shadow: 2px 5px 10px #888888;
+    margin: 10px;
+    
+    
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn-logout{
+    background-color: rgb(194, 26, 26);
+    float: right;
+    
+}
+
+.btn-changepassword{
+    background-color: rgb(13, 145, 145);
+    float: right;
+}
+
+
+
+table {
+
+    border-collapse:collapse;
+}
+ 
+th{
+   background-color:rgb(0, 98, 128);
+   color: whitesmoke;
+}
+
+tr:nth-child(even)
+{
+    background-color:pink;
+}
+  
+tr td:nth-child(7)
+{
+    width:100px;
+    overflow:auto;
+    
+}
+
+.dt-buttons{
+    
+    text-align: center;
+}
+
+.dt-buttons > button{
+    margin: 4px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px #888888; 
+}
+
+.buttons-pdf{
+    background-color: rgba(228, 24, 24, 0.884);
+}
+
+.buttons-excel{
+    background-color: rgb(7, 163, 7);
+}
+
+.input-sm
+{
+    background-color:pink;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background: url('https://static.dribbble.com/users/5484/screenshots/2145786/for_dribbble.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.grivence_title{
+    text-align: center;
+    margin-top: 3%;
+    color: #197f91;
+}
+.search_filter{
+    position: relative;
+    left: 39%;
+    width: 40%;
+}
+.title{
+    font-weight: 700;
+}
+ 
+.Filter_box{
+    box-shadow: 5px 10px 18px #888888;
+    padding:2% 3%;
+    border-radius: 5px;
+    
+    width:330px;
+    text-align: center;
+}
+
+.Filter_box>h4{
+    color:#197f91;
+    font-weight: 600;
+}
+ 
+.table_block{
+    box-shadow: 5px 10px 18px #888888;
+    padding:1% 1%;
+    margin:1% 1%;  
+    justify-items: center;
+}
+ 
+ .search{
+     margin-top: 1%;
+ }

@@ -1,0 +1,105 @@
+
+
+.otp_form > p{
+    color:green;
+    
+    
+}
+
+.otp_form{
+    box-shadow: 5px 10px 18px #888888;
+    padding: 10px;
+    margin: 70px;
+    width: 35%;
+    border-radius: 3px;
+    position: relative;
+    left:25%;
+    text-align: center;
+}
+
+.otp_label{
+    margin: 2px;
+}
+
+.otp_input{
+    margin: 2px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.otp_button{
+    
+    margin: 15px;
+    margin-left: 90px;
+    width: 70%;
+}
+
+.resend_btn{
+    background-color:#5bc0de;
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    position: absolute;
+    top: 67%;
+    left:31%;
+    box-shadow: 2px 4px 6px #888888;
+
+}
+
+.resend_btn:hover{
+    text-decoration: none;
+    color:white;
+    background-color:#31b0d5;
+}
+
+/* .btn{
+    margin: 2% 3%;
+    padding: 2%;
+    border-radius: 5px;
+    
+    box-shadow: 2px 2px 5px #888888;
+    font-size: 16px !important;
+ } */
+.otp_button > input{
+    box-shadow: 2px 4px 6px #888888;
+    
+}
+
+@media screen and (max-width:480px) 
+{
+    .container-fluid > p{
+        color:green;
+        margin-left: 0px;
+    }
+
+    .otp_form{
+        box-shadow: 5px 10px 18px #888888;
+        padding: 10px;
+        width: 70%;
+        position: absolute;
+        left:0px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width:490px)
+{
+    .container-fluid > p{
+        color:green;
+        margin-left:22%;
+        
+    }
+
+    .otp_form{
+        box-shadow: 5px 10px 18px #888888;
+        padding: 10px;
+        width: 75%;
+        position: absolute;
+        left:4%;
+        text-align: center;
+    }
+
+}

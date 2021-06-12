@@ -1,0 +1,216 @@
+
+
+.signup_form{
+    box-shadow: 5px 10px 18px #888888;
+    margin: 40px;
+    width: 40%;
+    position: absolute;
+    left: 27%;
+    padding: 6px;
+   
+}
+
+
+
+.formAuthorise{
+    width: 100%;
+    margin: 8px;
+}
+
+.formFaculty_id{
+    width: 100%;
+    margin: 8px;
+}
+
+.formFucaltyName_title{
+    
+    width: auto;
+    margin: 5px;
+    
+}
+
+
+
+.formFucaltyName_title > select:visited{
+   border:1px solid #03a3ff;
+}
+
+.formFucaltyName_title > select{
+    padding: 5px;
+    font-size: 15px;
+    height:32px;
+    border-radius: 3px;
+    border:1px solid #c9c7c7;
+    box-shadow:0px .1px 1px #888888 inset;
+    
+}
+.form-body{
+   margin: 0% 5%;
+}
+.rows{
+    display: flex;
+    
+}
+.formFucalty_firstName{
+    width: 100%;
+    margin: 5px;
+}
+
+.formFucalty_lastName{
+    width: 100%;
+    margin: 5px;
+   
+}
+
+.formFucalty_mobile{
+    width:100%;
+    margin: 5px;
+}
+
+.formFucalty_email{
+    width:100%;
+    margin: 5px;
+   
+}
+
+.formFucalty_button {
+   
+   margin: 1% 0% 2% 40%;
+   
+  
+}
+
+button{
+    width: 160px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+
+.form-header{
+   margin: -6px -6px 20px;
+   padding: 10px 30px 10px;
+   text-align: center;
+   
+   background-color: #07b5fa;
+   border-bottom: 1px solid #eee;
+   color: #fff;
+}
+.form-header h2{
+   font-size: 40px;
+   font-weight: bold;
+   font-family:'times-roman';
+}
+
+.f
+{
+   position: relative;
+   left:365px;
+   top:35px;
+   font-size: 20px;
+
+}
+
+.f:active{
+   color:dodgerblue;
+}
+.fac_b{
+   position: relative;
+   left:160px;
+   top:15px;
+   font-size: 21px;
+color:green;
+
+}
+.fac_a{
+   position: relative;
+   left:160px;
+   top:15px;
+   font-size: 21px;
+   color:rgb(156, 0, 0);
+
+}
+.sec_a{
+   position: relative;
+   left:200px;
+   top:40px;
+   font-size: 21px;
+color:green;
+
+}
+.sec_b{
+   position: relative;
+   left:180px;
+   top:40px;
+   font-size: 21px;
+   color:rgb(156, 0, 0);
+
+}
+.pass_b{
+   position: relative;
+   left:300px;
+   top:35px;
+   font-size: 41px;
+color:green;
+
+}
+.pass_a{
+   position: relative;
+   left:315px;
+   top:35px;
+   font-size: 41px;
+   color:rgb(156, 0, 0);
+
+}
+.mo_b{
+   position: relative;
+   left:320px;
+   top:35px;
+   font-size: 21px;
+color:green;
+
+}
+.mo_a{
+   position: relative;
+   left:337px;
+   top:35px;
+   font-size: 21px;
+   color:rgb(156, 0, 0);
+
+}
+.emai_b{
+   position: relative;
+   left:322px;
+   top:35px;
+   font-size: 21px;
+color:green;
+
+}
+.emai_a{
+   position: relative;
+   left:340px;
+   top:35px;
+   font-size: 21px;
+   color:rgb(156, 0, 0);
+
+}
+
+ @media (max-width:900px)
+{
+    .rows{
+        display: block;
+        margin: 15px;
+    }
+
+    .formFucalty_button {
+   
+        margin:0px;
+        
+       
+     }
+
+    button{
+        width: 100%;
+        box-shadow: 2px 2px 5px #888888;
+    }
+
+}

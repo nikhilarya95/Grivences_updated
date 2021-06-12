@@ -1,0 +1,59 @@
+#form{
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5px;
+ 
+   
+}
+
+fieldset{
+   margin:0px 45px 45px 45px;
+}
+
+.form-control{
+   margin-bottom: 5% 3%;
+   font-size: 16px !important;
+   padding:16px;
+}
+
+.fa-eye{
+   z-index: 4;
+   position: absolute;
+   left: 80%;
+   top:56%;
+   
+}
+
+.form_title{
+   text-align: center;
+   background-color: rgb(13, 141, 180);
+   color:white;
+   padding: 10px;
+   border-radius: 3px;
+   margin-bottom: 10%;
+}
+
+.form-group label{
+   font-size: 16px !important;
+   font-weight: 700;
+}
+.forget-color{
+   font-size: 14px;
+}
+
+.text-danger{
+   font-size: 14px;
+   
+}
+
+ .btn{
+   margin: 2% 30%;
+   padding: 2%;
+   border-radius: 5px;
+   width:40%;
+   box-shadow: 2px 2px 5px #888888;
+   font-size: 16px !important;
+}
+
+.errormsg{
+    margin-left:80px;
+}
